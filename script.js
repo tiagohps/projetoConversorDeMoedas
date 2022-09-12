@@ -3,7 +3,7 @@ const select = document.getElementById('currency-select')
 
 
 
-const convertValue = async ()  =>{
+const convertValue = async () => {
     const inputReais = document.getElementById('input-real').value
     const realValueText = document.getElementById('real-value-text')
     const currencyValueText = document.getElementById('currency-value-text')
